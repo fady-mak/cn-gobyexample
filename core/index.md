@@ -11,11 +11,8 @@ hero:
       text: Get Started
       link: /introduction
     - theme: alt
-      text: View on Code
-      
-    - theme: text
-      text: Go by Example(en)
-      link: "https://gobyexample.com/"
+      text: View Site Source
+      link: https://github.com/fady-mak/cn-gobyexample
 
 features:
   - title: 01. Hello World
