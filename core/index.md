@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  image: "./go.svg"
+  image: "/go.svg"
   name: "Go by Example For CN"
   tagline: "Go by Example 是对 Go 基于实践的介绍，包含一系列带有注释说明的示例程序"
   actions:
