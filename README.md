@@ -1,7 +1,7 @@
 
 此网站是本人在学习过程中边学习边重新制作而成的。
 
-参考了"https://gobyexample.com"和"https://gobyexample-cn.github.io"这两个网站。通过重新制作，网站变得更加实用和用户友好。内容同上面参考网站
+参考了"[https://gobyexample.com](https://gobyexample.com)"和"[https://gobyexample-cn.github.io](https://gobyexample-cn.github.io)"这两个网站。通过重新制作，网站变得更加实用和用户友好。内容同上面参考网站
 
 这个网站的目标是提供简洁明了的示例代码，帮助用户更好地学习和理解Go编程语言的各种概念和用法。
 
