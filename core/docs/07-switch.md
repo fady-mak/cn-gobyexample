@@ -1,9 +1,7 @@
 ::: details `switch`语句在许多分支中表达条件。
 `Switch` statements express conditionals across many branches.
 :::
-```go
 
-```
 ::: details 下面是一个基本的`switch`语句。
 Here’s a basic `switch`.
 :::
