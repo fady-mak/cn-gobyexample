@@ -146,15 +146,43 @@
 }
 
 .VPSidebarItem {
+  &.level-0 {
+    padding-left: 12px;
+  }
   .VPLink .text {
+    position: relative;
     font-size: 12px !important;
     color: var(--vp-c-text-3) !important;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100%;
+      pointer-events: none;
+      transition: width 0.2s ease-in;
+      border-radius: 4px;
+    }
     &:hover {
       color: var(--vp-c-brand-2) !important;
     }
   }
-  &.is-active .VPLink .text {
-    color: var(--vp-c-brand-1) !important;
+  &.is-active {
+    .VPLink .text {
+      background-color: transparent;
+      color: var(--vp-c-brand-3) !important;
+
+      &::after {
+        width: 100%;
+        background-image: linear-gradient(
+          to right,
+          transparent,
+          var(--vp-c-brand-3) 500%
+        );
+      }
+    }
   }
 }
 
