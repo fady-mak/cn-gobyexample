@@ -215,6 +215,31 @@
   cursor: pointer;
 }
 
-.VPNavBarTitle .VPImage.logo {
-  border-radius: 4px;
+.VPHomeHero .VPButton.brand {
+  position: relative;
+}
+
+.VPHomeHero .image-container {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+      filter: blur(2px);
+    }
+  }
+}
+.VPNavBarTitle {
+  .VPImage.logo {
+    border-radius: 4px;
+  }
+}
+
+.VPFeature.VPLink:not(.link) {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
