@@ -53,11 +53,11 @@ features:
                 
   - title: 10. Maps
     details: 映射
-    # link: '/docs/10-maps.md'
+    link: '/docs/10-maps.md'
                 
   - title: 11. Range
     details: 范围
-    # link: '/docs/11-range.md'
+    link: '/docs/11-range.md'
                 
   - title: 12. Functions
     details: 函数
