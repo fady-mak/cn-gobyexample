@@ -65,7 +65,7 @@ features:
 
   - title: 13. Multiple Return Values
     details: 多返回值
-    # link: '/docs/13-multiple-return-values.'
+    link: '/docs/13-multiple-return-values'
 
   - title: 14. Variadic Functions
     details: 可变参数函数
